@@ -5,6 +5,8 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
-        "strict": true
+        "strict": true,
+        "moduleDetection": "force",
+        "lib": ["ES2016", "DOM"]
     }
 }

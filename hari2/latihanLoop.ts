@@ -1,35 +1,35 @@
-// const bilanganGanjil :number = 25;
-// const bilanganGenap: number = 2;
+const bilanganGanjil :number = 25;
+const bilanganGenap: number = 2;
 
-// if(bilanganGenap % 2 == 0) {
-//     console.log(`${bilanganGenap} Even.`);
-// }
-// else{
-//     console.log(`${bilanganGenap} Odd.`);
-// }
-// if(bilanganGanjil % 2 == 1) {
-//     console.log(`${bilanganGanjil} Odd.`);
-// }
-// else{
-//     console.log(`${bilanganGanjil} Even.`);
-// }
+if(bilanganGenap % 2 == 0) {
+    console.log(`${bilanganGenap} Even.`);
+}
+else{
+    console.log(`${bilanganGenap} Odd.`);
+}
+if(bilanganGanjil % 2 == 1) {
+    console.log(`${bilanganGanjil} Odd.`);
+}
+else{
+    console.log(`${bilanganGanjil} Even.`);
+}
 
 
-//prime
-// const num:number = 7
+// prime
+const num:number = 7
 
-// let divider: number = 0
-// for (let i = 1; i <= num; i++) {
-//     if (num % i == 0) {
-//         divider++
-//     }
-// }
+let divider: number = 0
+for (let i = 1; i <= num; i++) {
+    if (num % i == 0) {
+        divider++
+    }
+}
 
-// console.log(
-//     divider == 2 ?
-//     `${num} is a prime number` :
-//     `${num} is not a prime number`
-// )
+console.log(
+    divider == 2 ?
+    `${num} is a prime number` :
+    `${num} is not a prime number`
+)
 
 // //N
 const bilangan:  number = 5
@@ -48,32 +48,32 @@ console.log(`${penampungBilangan}`)
 
 const bilangan2: number = 5
 
-// let res: number = 0
-// let desc: string = ""
-// for (let i = 1; i <= bilangan2; i++ ){
-//     res += i
-//     if (i == 1) {
-//         desc += "1"
-//     } else {
-//         desc += ` + ${i}`
-//     }
-// }
-// console.log(res)
-// console.log(`${desc} = ${res}`)
+let res: number = 0
+let desc: string = ""
+for (let i = 1; i <= bilangan2; i++ ){
+    res += i
+    if (i == 1) {
+        desc += "1"
+    } else {
+        desc += ` + ${i}`
+    }
+}
+console.log(res)
+console.log(`${desc} = ${res}`)
 
 
 
 
-// function factorial(x: any): any
-//     { 
-//     if (x == 0) //jika x adalah 0
-//     {
-//     return 1; //faktorial 0 adalah 1
-//     }
-//     return x * factorial(x-1);       
-//     }
-// console.log(factorial(4));
-// console.log(factorial(6));
+function factorial(x: any): any
+    { 
+    if (x == 0) //jika x adalah 0
+    {
+    return 1; //faktorial 0 adalah 1
+    }
+    return x * factorial(x-1);       
+    }
+console.log(factorial(4));
+console.log(factorial(6));
 
 
 
@@ -82,16 +82,16 @@ const bilangan2: number = 5
 
 
 
-// function fibonacci_numbers(n: number): number {
-//     if (n == 0) {
-//         return 0;
-//     } else if (n == 1) {
-//         return 1;
-//     } else {
-//         return fibonacci_numbers(n - 2) + fibonacci_numbers(n - 1);
-//     }
-// }
-// console.log(fibonacci_numbers(15))
+function fibonacci_numbers(n: number): number {
+    if (n == 0) {
+        return 0;
+    } else if (n == 1) {
+        return 1;
+    } else {
+        return fibonacci_numbers(n - 2) + fibonacci_numbers(n - 1);
+    }
+}
+console.log(fibonacci_numbers(15))
 
 
 

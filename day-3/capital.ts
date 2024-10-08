@@ -16,14 +16,14 @@ for (let i = 0; i < words.length; i++) {
 console.log(result); // Output: "Hello World"\
 
 //versi kang ilham
-const  str3: string = "hello student purwadhika bandung"
+// const  str3: string = "hello student purwadhika bandung"
 
-let res2: string = ""
+// let res2: string = ""
 
-for (let i = 0; i < str3.length; i++){
-    if (i == 1 || str3.charAt(i - 1) == " "){
-        res += str3.charAt
+// for (let i = 0; i < str3.length; i++){
+//     if (i == 1 || str3.charAt(i - 1) == " "){
+//         res += str3.charAt
 
-    }
+//     }
 
-}
+// }

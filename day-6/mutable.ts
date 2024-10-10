@@ -76,6 +76,6 @@ const person = {
 
 //looping object
 for(let key in person) {
-    console.log(key)
+    console.log(key.length)
     console.log(person[key as keyof typeof person])
 }

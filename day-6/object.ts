@@ -4,11 +4,12 @@
 //     price: number
 // }
 
-type Car ={          //ada 2 cara
+type Car = {          //ada 2 cara
     brand: string
     model: string
     price: number
 }
+{a:1}
 
 const car: Car = {
     brand: "BMW",

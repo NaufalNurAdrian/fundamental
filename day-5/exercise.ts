@@ -20,20 +20,20 @@
 // console.log(hasil(arr))
 
 
-// //versi kang ilham
-// function minMax (arr: number[]) {
-//     const lowest: number = Math.min(...arr)
-//     const highest: number = Math.max(...arr)
-//     const average: number = arr.reduce((a, b) => a + b) / arr.length
+//versi kang ilham
+function minMax (arr: number[]) {
+    const lowest: number = Math.min(...arr)
+    const highest: number = Math.max(...arr)
+    const average: number = arr.reduce((a, b) => a + b) / arr.length
 
-//     return {
-//         lowest: lowest,
-//         highest: highest,
-//         average: average
+    return {
+        lowest: lowest,
+        highest: highest,
+        average: average
 
-//     }
-// }
-// console.log(minMax([12, 5, 23, 18, 4, 45, 32]))
+    }
+}
+console.log(minMax([12, 5, 23, 18, 4, 45, 32]))
 
 
 

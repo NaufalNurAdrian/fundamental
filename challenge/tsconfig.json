@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "moduleDetection": "force",
+        "lib": ["ES2023", "DOM"],
+    
+    }
+}

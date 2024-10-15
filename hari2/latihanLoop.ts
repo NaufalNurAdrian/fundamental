@@ -14,7 +14,6 @@
 //     console.log(`${bilanganGanjil} Even.`);
 // }
 
-
 // // prime
 // const num:number = 7
 
@@ -41,9 +40,6 @@
 // }
 // console.log(`${penampungBilangan}`)
 
-
-
-
 // //alternatif
 
 // const bilangan2: number = 5
@@ -61,39 +57,27 @@
 // console.log(res)
 // console.log(`${desc} = ${res}`)
 
-
-
-
-function factorial(x: any): any
-    { 
-    if (x == 0)               //jika x adalah 0
-    {
-    return 1;                 //faktorial 0 adalah 1
-    }
-    return x * factorial(x-1);       
-    }
-console.log(factorial(4));
-console.log(factorial(6));
-
-
-
-
-
-
-
-
-// function fibonacci_numbers(n: number): number {
-//     if (n == 0) {
-//         return 0;
-//     } else if (n == 1) {
-//         return 1;
-//     } else {
-//         return fibonacci_numbers(n - 2) + fibonacci_numbers(n - 1);
+// function factorial(x: any): any
+//     {
+//     if (x == 0)               //jika x adalah 0
+//     {
+//     return 1;                 //faktorial 0 adalah 1
 //     }
-// }
-// console.log(fibonacci_numbers(15))
+//     return x * factorial(x-1);
+//     }
+// console.log(factorial(4));
+// console.log(factorial(6));
 
-
+function fibonacci_numbers(n: number): number {
+  if (n == 0) {
+    return 0;
+  } else if (n == 1) {
+    return 1;
+  } else {
+    return fibonacci_numbers(n - 2) + fibonacci_numbers(n - 1);
+  }
+}
+console.log(fibonacci_numbers(15));
 
 //alternatif
 // const n: number = 15
@@ -106,13 +90,3 @@ console.log(factorial(6));
 // b = nexNumber
 // }
 // console.log(b)
-
-
-
-
-
-
-
-
-
-

@@ -7,6 +7,6 @@
         "skipLibCheck": true,
         "strict": true,
         "moduleDetection": "force",
-        "lib": ["ES2023", "DOM"]
+        "lib": ["ES2016", "DOM"]
     }
 }

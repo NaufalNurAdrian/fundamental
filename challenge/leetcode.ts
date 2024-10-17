@@ -94,13 +94,13 @@ function countBits(n: number): number[] {
 
 
 
-//50
-function myPow(x: number, n: number): number {
-    return x ** n
-};
-const x = 2.00000
-const n = -2
-console.log(myPow(x, n));
+// //50
+// function myPow(x: number, n: number): number {
+//     return x ** n
+// };
+// const x = 2.00000
+// const n = -2
+// console.log(myPow(x, n));
 
 
 
@@ -123,3 +123,12 @@ console.log(myPow(x, n));
 
 
 
+function reverseWords(s: string): string {
+    let hasil = ""
+    hasil += s.split(" ").reverse().join(" ").replaceAll(/\s+/g, " ").trim()
+    return hasil
+};
+console.log(reverseWords("the sky is blue"));
+console.log(reverseWords("a good   example"));
+console.log(reverseWords("  hello world  "));
+console.log(reverseWords("  Bob    Loves  Alice   "));

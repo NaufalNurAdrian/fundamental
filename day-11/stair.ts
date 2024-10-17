@@ -16,3 +16,14 @@ function stair(n: number): number {
   return res + 2;
 }
 console.log(stair(1));
+
+
+//alternatif
+function fibonachi (x: number){
+    const res: number[] = [0, 1]
+    for (let i = 0; i < x; i++){
+        res.push(res[i] + res[i + 1])
+    }
+    return res[x + 1]
+}
+console.log(fibonachi(5));
